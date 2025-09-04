@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 45%;   /* 2 cards per row */
+  }
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    background: url('weather.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    pointer-events: auto;
+}
+
+    
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 2px 10px 2px;
+    text-shadow: 2px 2px 4px #f6f5f5;
+}
+
+
+.sidenav{
+    margin: 0px 5px 0px 5px;
+}
+
+
+.btn{
+    width : 100%;  
+}
+
+
+.citybtn {
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(30px);
+    border-color: black;
+
+}
+
+.citybtn:hover {
+    background-color: #41a1ca;
+    color: white;
+    border-color: black;
+}
+
+.card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(30px);
+    border-radius: 10px;
+    width: 100px;        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: black;
+    box-shadow: 1px 1px 2px #f6f5f5;
+
+
+
+}
+.forecast-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; 
+    margin-top: 1rem;  /* allows wrapping on smaller screens */
+}
+
+#searchbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(96, 172, 254);
+    border-color: black;
+    color: white;
+}
+
+#searchbtn:hover {
+    background-color: #41a1ca;
+    color: white;
+    border-color: black;
+}
+
+#icon {
+    width: 75px;
+    height: 75px;
+    box-shadow: none;
+    
+}
+#icon {
+    display: none;
+}
+
+#icon[src] {
+    display: inline-block;
+  }
+
+ #city{
+    position: relative;
+    top: 5px;
+ }
+ 

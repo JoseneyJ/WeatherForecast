@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- Bootstrap CSS CDN  -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css'/>
+    <script src='https://MomentJS.com/downloads/moment.js'></script>
+    <link rel='stylesheet' href='./style.css'>
+    <title>Weather Dashboard</title>
+</head>
+
+    <header class ='p-3 mb-2'>
+            <h1>Weather Dashboard</h1>
+    </header>
+
+<body>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-sm-3 sidenav'>
+                <aside class='row'>
+                    <h4>Search for a City:</h4>
+                    <input type='text' class='form-control' placeholder="Enter your location" id='inputVal'>
+
+                    <button class='btn btn-default' id='searchbtn' type='button'>
+                        
+                        <span class='glyphicon glyphicon-search'>Search</span>
+                    </button>
+                </aside>
+                <div class='row'>
+                    <div class='msg'></div>
+                </div>
+                <div class='row' id='history'>
+                </div>
+            </div>
+
+            <div class='col-sm-8'>
+                <div class='row'>
+                    <div class='card card-body' id='current-weather'>
+                        <div id='setImg'>
+                            <h2 id='city'></h2> <img id='icon'>
+                        </div>
+                        <p id='temp'>Temperature: </p>
+                        <p id='wind'>Wind: </p>
+                        <p id='humidity'>Humidity: </p>
+                    </div>
+                </div>
+                <div class='row' id="forecast-header">
+
+                    <h4>5-Day Forecast:</h4>
+                </div>
+                <section class='row' id='forecast-cards'>
+                    <div class='card card-body' id='day-1'>
+
+                    </div>
+                    <div class='card card-body' id='day-2'>
+
+                    </div>
+                    <div class='card card-body' id='day-3'>
+
+                    </div>
+                    <div class='card card-body' id='day-4'>
+
+                    </div>
+                    <div class='card card-body' id='day-5'>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='./script.js'></script>
+</body>
+
+</html>
