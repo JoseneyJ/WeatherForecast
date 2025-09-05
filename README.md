@@ -6,7 +6,6 @@ Build a weather dashboard that will run in the browser and feature dynamically u
 
 Use the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. The base URL should look like the following: `https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}`.
 
-**Hint**:
 
 
 ## User Story
@@ -31,10 +30,10 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ## Screenshot
-Updated version & Link: <img width="1345" height="732" alt="portfolio-4" src="https://github.com/user-attachments/assets/046d09f2-9c3d-4645-9c12-28c02e8ac1e7" />
+**Updated version & Link**: <img width="1345" height="732" alt="portfolio-4" src="https://github.com/user-attachments/assets/046d09f2-9c3d-4645-9c12-28c02e8ac1e7" />
 
 
-Previous Version & Link:<img width="1440" height="773" alt="Screenshot 2025-09-05 at 8 41 50 AM" src="https://github.com/user-attachments/assets/63a05dda-0e91-4fc6-81b0-8ba558dac002" />
+**Previous Version & Link**:<img width="1440" height="773" alt="Screenshot 2025-09-05 at 8 41 50 AM" src="https://github.com/user-attachments/assets/63a05dda-0e91-4fc6-81b0-8ba558dac002" />
 
 
 
