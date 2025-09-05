@@ -30,7 +30,8 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ## Screenshot
-**Updated version & Link**: <img width="1345" height="732" alt="portfolio-4" src="https://github.com/user-attachments/assets/046d09f2-9c3d-4645-9c12-28c02e8ac1e7" />
+**Updated version & Link**: https://joseneyj.github.io/WeatherForecast/ 
+<img width="1345" height="732" alt="portfolio-4" src="https://github.com/user-attachments/assets/046d09f2-9c3d-4645-9c12-28c02e8ac1e7" />
 
 
 **Previous Version & Link**:<img width="1440" height="773" alt="Screenshot 2025-09-05 at 8 41 50 AM" src="https://github.com/user-attachments/assets/63a05dda-0e91-4fc6-81b0-8ba558dac002" />
