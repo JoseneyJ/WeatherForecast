@@ -30,14 +30,16 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ## Screenshot
-**Updated version & Link**: https://joseneyj.github.io/WeatherForecast/ 
+**Updated version & Link**: 
+https://joseneyj.github.io/WeatherForecast/ 
 <img width="1440" height="773" alt="Screenshot 2025-09-05 at 8 45 01 AM" src="https://github.com/user-attachments/assets/fbbbd709-e1fc-4a09-be5a-030b0b0639f4" />
 
 Updates made: 
 * Improvements to website layout (HTML & CSS). As well as resizing 5-day forecast card to be unifromed. 
 * Improvements to Javascript. Previous website would only allow the search of cites ex. Miami and not Miami, FL. Now this has been corrected. 
 
-**Previous Version & Link**:https://joseneyj.github.io/WeatherDash6/ <img width="1440" height="773" alt="Screenshot 2025-09-05 at 8 41 50 AM" src="https://github.com/user-attachments/assets/63a05dda-0e91-4fc6-81b0-8ba558dac002" />
+**Previous Version & Link**:
+https://joseneyj.github.io/WeatherDash6/ <img width="1440" height="773" alt="Screenshot 2025-09-05 at 8 41 50 AM" src="https://github.com/user-attachments/assets/63a05dda-0e91-4fc6-81b0-8ba558dac002" />
 
 
 
